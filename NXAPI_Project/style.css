@@ -1,0 +1,78 @@
+#gradient-style
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	margin: 8px;
+	text-align: left;
+	border-collapse: collapse;
+}
+#gradient-style th
+{
+	font-size: 12px;
+	font-weight: normal;
+	padding: 4px;
+	background: #b9c9fe url('table-images/gradhead.png') repeat-x;
+	border-top: 2px solid #d3ddff;
+	border-bottom: 1px solid #fff;
+	color: #039;
+}
+#gradient-style td
+{	
+	width: 99%
+	padding: 4px; 
+	border-bottom: 1px solid #fff;
+	color: #669;
+	border-top: 1px solid #fff;
+	background: #e8edff url('table-images/gradback.png') repeat-x;
+}
+#gradient-style tr
+{
+	background: #e8edff;
+	font-size: 12px;
+	color: #99c;
+}
+#gradient-style tbody tr:hover td
+{
+	background: #d0dafd url('table-images/gradhover.png') repeat-x;
+	color: #339;
+}
+#hardware {
+    background-color:black;
+    color:white;
+    text-align:left;
+    padding:5px;
+    width: 100%;
+}
+#hardware table
+{
+	padding:5px;
+    margin: 0 auto;
+}
+#container {
+	padding: 5px;
+ 	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+    top: 170; bottom: 0; left: 0; right: 0;
+}
+#switchport {
+	flex: 1;
+	padding: 4;
+ 	margin: auto;
+}
+#interface {
+	flex: 2;
+	padding: 4;
+	margin: auto;
+}
+#vlan {
+	flex: 3;
+	padding: 4;
+	margin: auto;
+}
+#port_chan {
+	flex: 4;
+	padding: 4;
+	margin: auto;
+}
